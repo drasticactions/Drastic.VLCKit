@@ -1,0 +1,30 @@
+<Project>
+    <PropertyGroup>
+        <LangVersion>preview</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageVersion>4.0.0-beta6</PackageVersion>
+        <Company>Drastic Actions</Company>
+        <Copyright>Copyright (C) Drastic Actions</Copyright>
+        <IsPackable>true</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="../../README.md" Pack="true" PackagePath="" Visible="false" />
+      <None Include="../../favicon.png" Pack="true" PackagePath="" Visible="false" />
+    </ItemGroup>
+
+    <PropertyGroup>
+      <Authors>$(Company)</Authors>
+      <PackageTags>VLCKit vlc ios mac tvos</PackageTags>
+      <PackageProjectUrl>https://github.com/drasticactions/Drastic.VLCKit</PackageProjectUrl>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
+      <PackageIcon>favicon.png</PackageIcon>
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
+      <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+      <PublishRepositoryUrl>true</PublishRepositoryUrl>
+      <EmbedUntrackedSources>true</EmbedUntrackedSources>
+      <DebugType>embedded</DebugType>
+    </PropertyGroup>
+
+</Project>
